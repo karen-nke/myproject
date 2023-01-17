@@ -5,6 +5,9 @@ import Message from './components/Message'
 import Message2 from './components/Message2'
 import Profile from './components/Profile'
 import Counter from './components/Counter'
+import Resume from './components/Resume'
+
+
 
 function App() {
   return (
@@ -22,6 +25,8 @@ function App() {
       <h3>Tutorial Part 14 : State</h3>
 
       <Counter></Counter>
+
+      <Resume name = "Janice"></Resume>
     </div>
   );
 }
