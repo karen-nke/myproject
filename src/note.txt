@@ -1,0 +1,11 @@
+Props 
+- passed to the component 
+- immutable 
+- Can be accessed as props, this.props 
+- act like parameter passed to the funciton 
+
+State 
+- contained inside the component 
+- can be cahnge 
+- Functional: useState Hook , Class: this.state 
+- act like a variable in the function body 

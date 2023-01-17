@@ -4,6 +4,7 @@ import Hello from './components/Hello' //Import Hello.js component
 import Message from './components/Message'
 import Message2 from './components/Message2'
 import Profile from './components/Profile'
+import Counter from './components/Counter'
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
       <Profile name="Karenn" lastname="Ngg"/>
       
       <Message2 messagecode="10" messagecontent="This is a message from props"/>
+
+      <h3>Tutorial Part 14 : State</h3>
+
+      <Counter></Counter>
     </div>
   );
 }
