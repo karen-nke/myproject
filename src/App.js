@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Hello from './components/Hello' //Import Hello.js component 
 import Message from './components/Message'
+import Message2 from './components/Message2'
 import Profile from './components/Profile'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       </Profile>
       <Profile name="Karenn" lastname="Ngg"/>
       
+      <Message2 messagecode="10" messagecontent="This is a message from props"/>
     </div>
   );
 }
