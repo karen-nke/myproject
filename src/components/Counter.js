@@ -44,7 +44,7 @@ class Counter extends Component{
         
         <div> 
 
-            <h3>Count value is: {this.state.counter} </h3>
+            <h3>Count value is = {this.state.counter} </h3>
 
             <button onClick={()=> this.increment()}>Increment</button>
             <button onClick={()=> this.zero()}>Set Zero</button>
